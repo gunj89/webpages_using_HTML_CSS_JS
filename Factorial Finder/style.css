@@ -1,0 +1,53 @@
+/* Background */
+body {
+    margin: 0;
+    padding: 40px;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e); /* epic dark blend */
+    font-family: 'Segoe UI', sans-serif;
+    color: #00ffe7;
+}
+
+/* Input styling */
+input[type="number"] {
+    padding: 12px 18px;
+    border-radius: 10px;
+    border: 1px solid #00ffe7;
+    font-size: 16px;
+    outline: none;
+    margin-right: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #00ffe7;
+    box-shadow: 0 0 10px rgba(0, 255, 231, 0.3);
+    transition: 0.3s ease;
+}
+
+input::placeholder {
+    color: rgba(0, 255, 231, 0.5);
+}
+
+/* Button styling */
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(to right, #ff00cc, #3333ff);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 0 15px rgba(255, 0, 204, 0.4);
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(255, 0, 204, 0.7);
+}
+
+/* Result text */
+#ans {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #39ff14; /* electric green */
+    text-shadow: 0 0 3px #39ff14, 0 0 10px #39ff14;
+}
