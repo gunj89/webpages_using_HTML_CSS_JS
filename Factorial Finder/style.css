@@ -6,7 +6,6 @@ body {
     color: #00ffe7;
 }
 
-/* Input styling */
 input[type="number"] {
     padding: 12px 18px;
     border-radius: 10px;
